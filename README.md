@@ -2,7 +2,7 @@
 A.I. Chatbot
 
 ## Scope
-Being able to received from the AI songs based on the current vibe.  
+Being able to receive songs from the AI based on the current vibe.  
 
 
 ## Architecture
