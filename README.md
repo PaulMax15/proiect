@@ -2,15 +2,11 @@
 A.I. Chatbot
 
 ## Scope
-AI  melodies
+Being amble to received from the AI songs based on the current vibe.  
 
 
 ## Architecture
 Product's architecture
 
- 
 
-| Project Title | Technical Approach | Backend/Frontend |
-|---------------|-------------------|------------------|
-| Data |
-# update-project
+
