@@ -12,7 +12,7 @@ services:  # Defines the services to be created
             - 'host.docker.internal:host-gateway'  # Maps host.docker.internal to host-gateway
         ports:  # Ports to expose and map from the host to the container
             - '${APP_PORT:-80}:80'  # Maps APP_PORT to 80, defaulting to 80 if not set
-            - '${VITE_PORT:-5173}:${ VITE_PORT:-5173}'  # Maps VITE_PORT to itself, defaulting to 5173 if not set
+            - '${VITE_PORT:-5173}:${VITE_PORT:-5173}'  # Maps VITE_PORT to itself, defaulting to 5173 if not set
         environment:  # Environment variables for the container
             WWWUSER: '${WWWUSER}'  # Value of WWWUSER environment variable
             LARAVEL_SAIL: 1  # Sets LARAVEL_SAIL environment variable to 1
