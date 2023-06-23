@@ -6,7 +6,7 @@ Being able to receive songs from the AI based on the current vibe.
 
 
 ## Architecture
-Product's architecture
+Application Architecture
 
 
 
